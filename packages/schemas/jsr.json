@@ -1,0 +1,12 @@
+{
+  "name": "@backendless/schemas",
+  "version": "0.1.0",
+  "description": "Schemas for Drizzle ORM",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "drizzle-orm": "^0.39.3"
+  },
+  "publish": {
+    "include": ["src/**/*", "README.md", "LICENSE"]
+  }
+} 
